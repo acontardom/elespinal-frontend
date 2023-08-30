@@ -102,7 +102,7 @@ function ProrationNav () {
         <table className="table">
           <thead>
             <tr>
-              <th>Projects / People</th>
+              <th>Proyectos</th>
               {columnHeaders}
             </tr>
           </thead>
