@@ -12,7 +12,7 @@ import Form from 'react-bootstrap/Form';
 
 function PeopleGrid () {
 
-    const url = "http://localhost:8000";
+    const url = "http://190.114.255.176";
 
     // Consulta a la API los personas
     const [personas, setPersonas] = useState([]);

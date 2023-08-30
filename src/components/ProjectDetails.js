@@ -4,7 +4,7 @@ import axios from 'axios';
 
 function ProjectDetails () {
     
-        const url = "http://localhost:8000";
+        const url = "http://190.114.255.176";
     
         const { id } = useParams();
     

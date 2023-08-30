@@ -15,7 +15,7 @@ import '../styles/tables.css'
 
 function ProjectsGrid () {
 
-    const url = "http://localhost:8000";
+    const url = "http://190.114.255.176";
 
     // Consulta a la API los proyectos
     const [proyectos, setProyectos] = useState([]);
