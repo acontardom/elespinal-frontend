@@ -10,7 +10,7 @@ import React, { useState } from 'react';
 
 function NavbarEs() {
 
-  const url = 'http://190.114.255.176';
+  const url = "http://190.114.255.176/api";
 
 
   // Cargar personas

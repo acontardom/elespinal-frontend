@@ -12,7 +12,7 @@ import Form from 'react-bootstrap/Form';
 
 function EquipmentGrid () {
 
-    const url = "http://190.114.255.176";
+    const url = "http://190.114.255.176/api";
 
     // Consulta a la API los equipos
     const [equipos, setEquipos] = useState([]);

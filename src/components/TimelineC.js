@@ -21,7 +21,7 @@ import Modal from 'react-bootstrap/Modal';
 
 function MainTimeline() {
 
-    const url = 'http://190.114.255.176';
+    const url = "http://190.114.255.176/api";
     //const [personas, setPersonas] = useState([]);
     //const [equipos, setEquipos] = useState([]);
     const [items, setItems] = useState([]);
