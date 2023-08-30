@@ -15,7 +15,7 @@ import '../styles/tables.css'
 
 function ProjectsGrid () {
 
-    const url = "http://190.114.255.176/api";
+    const url = process.env.REACT_APP_API_URL;
 
     // Consulta a la API los proyectos
     const [proyectos, setProyectos] = useState([]);

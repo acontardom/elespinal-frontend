@@ -4,7 +4,7 @@ import axios from 'axios';
 
 function ProjectDetails () {
     
-        const url = "http://190.114.255.176/api";
+    const url = process.env.REACT_APP_API_URL;
     
         const { id } = useParams();
     

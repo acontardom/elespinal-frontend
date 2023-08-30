@@ -1,14 +1,12 @@
 import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
-
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 
 function HomeGroup() {
   return (
-    <CardGroup> 
-
+    <Row xs={1} md={3} className="g-4">
+        <Col>
           <Card >
             <Card.Body>
               <Card.Title>Calendario general</Card.Title>
@@ -18,7 +16,8 @@ function HomeGroup() {
             </Card.Body>
             <Button variant="link" href='/calendar'>Ir a Calendario</Button>
           </Card>
-
+        </Col>
+        <Col>
           <Card >
             <Card.Body>
               <Card.Title>Proyectos</Card.Title>
@@ -28,6 +27,8 @@ function HomeGroup() {
             </Card.Body>
             <Button variant="link" href='/projects'>Ir a Proyectos</Button>
           </Card>
+        </Col>
+        <Col>
 
           <Card >
             <Card.Body>
@@ -38,6 +39,8 @@ function HomeGroup() {
             </Card.Body>
             <Button variant="link" href='/people'>Ir a Personas</Button>
           </Card>
+          </Col>
+        <Col>
 
           <Card >
             <Card.Body>
@@ -48,8 +51,23 @@ function HomeGroup() {
             </Card.Body>
             <Button variant="link" href='/equipment'>Ir a Equipos</Button>
           </Card>
+        </Col>
 
-    </CardGroup>
+        <Col>  
+          <Card>
+            <Card.Body>
+              <Card.Title>Prorrateo</Card.Title>
+              <Card.Text>
+                Sección con las funcionalidades para realizar el prorrateo de las personas
+              </Card.Text>
+            </Card.Body>
+            <Button variant="link" href='/proration'>Ir a Prorrateo</Button>
+          </Card>
+        </Col>
+
+        </Row>
+
+
         
 
   );

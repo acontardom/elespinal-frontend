@@ -5,6 +5,7 @@ import Projects from './pages/Projects';
 import Equipment from './pages/Equipment';
 import People from './pages/People';
 import ProjectInfo from './pages/ProjectInfo';
+import ProrationPage from './pages/Proration';
 
 
 
@@ -18,6 +19,7 @@ function Routing(){
                 <Route path={"/people"} element={<People/>}/>
                 <Route path={"/equipment"} element={<Equipment/>}/>
                 <Route path={"/projects/:id"} element={<ProjectInfo/>}/>
+                <Route path={"/proration"} element={<ProrationPage/>}/>
             </Routes>
         </BrowserRouter>
     )
